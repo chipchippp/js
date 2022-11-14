@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+ <h2> java FUn</h2>
+ <p> Outside myFunction() carName is Undefined</p>
+  <p id="demo"></p>
+  <p id="demo2"></p>
+  <script>
+    myFunction ;
+        function myFunction() {
+            let carName = "volvo"
+            document.getElementById("demo").innerHTML = typeof carName + "" + carName;
+        }
+        document.getElementById("demo2").innerHTML = typeof carName;
+  </script>
+</body>
+</html>
